@@ -1,7 +1,7 @@
 spring:
   profiles: dev
   datasource:
-#    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:log4jdbc:mariadb://localhost:3306?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
     username: devhsh
     password: ehdaofu1@2#3
