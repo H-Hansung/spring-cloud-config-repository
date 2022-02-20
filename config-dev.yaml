@@ -2,6 +2,6 @@ spring:
   profiles: dev
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:log4jdbc:mariadb://localhost:3306/hspro?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
-    username: devhsh
-    password: ehdaofu1@2#3
+    url: 3ea16b73c8f94cf20baa4574ea4dfc70ccda55d24ddcadef0a942aa632cac1971fc8bc7e91d258592b1eb423efb349c61ee6d738318e88a92d2b09c5cd20b28697096e2b24d2903646ad8d7222b60406cf19fb0274fb82ee2dc76138be471a7a18f856f08eb7c2b482a7146b814040f25113537b64f89f6b8bd4758cca01f19ab6e9641b262057339736ea08fc47f0670c37e6648bea88dd85782fee92d19a3c
+    username: 931631a368f9614cf1f0af76820c1b3bc470ec69717228855e8951b70e571114
+    password: 90001e61175328e494522d6f0db5fd0e54e6e52b9d6f972f32521786e67d9cd2
