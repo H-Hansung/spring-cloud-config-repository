@@ -5,4 +5,4 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
       jdbc-url: jdbc:log4jdbc:mariadb:http//localhost:3306/hspro?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
       username: devhsh
-      password: ehdaofu1@2#3
+      password: ehdaofu1!
