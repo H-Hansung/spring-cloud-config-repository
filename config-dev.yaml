@@ -5,7 +5,3 @@ spring:
     username: ENC(ZdHsOWbxnOauHVkbn58PiQ==)
     password: ENC(kwh9g2AIM2uprH414s7gmosLLjIfoXaG)
     driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-    
-#  session:     SPRING_SESSION, SPRING_SESSION_ATTRIBUTES 테이블 자동 생성
-#    store-type: jdbc
-#    jdbc.initialize-schema: always   

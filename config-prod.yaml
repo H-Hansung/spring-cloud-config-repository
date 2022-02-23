@@ -1,6 +1,6 @@
 spring:
   profiles: prod
-  session:
+  session:    #SPRING_SESSION, SPRING_SESSION_ATTRIBUTES 테이블 자동 생성
     store-type: jdbc
     jdbc.initialize-schema: always
   datasource:
