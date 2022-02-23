@@ -1,8 +1,10 @@
 spring:
   profiles: prod
+  session:
+    store-type: jdbc
+    jdbc.initialize-schema: always
   datasource:
-    hikari:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:log4jdbc:mariadb:http//localhost:3306/hspro?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
-      username: devhsh
-      password: ehdaofu1!
+    url: jdbc:log4jdbc:mariadb://localhost:3306/hspro?allowMultiQueries=true
+    username: ENC(ZdHsOWbxnOauHVkbn58PiQ==)
+    password: ENC(kwh9g2AIM2uprH414s7gmosLLjIfoXaG)
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy

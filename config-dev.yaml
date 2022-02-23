@@ -2,7 +2,7 @@ spring:
   profiles: dev
   session:
     store-type: jdbc
-    jdbc.initialize-schema: always
+#    jdbc.initialize-schema: always   SPRING_SESSION, SPRING_SESSION_ATTRIBUTES 테이블 자동 생성
   datasource:
     url: jdbc:log4jdbc:mariadb://localhost:3306/hspro?allowMultiQueries=true
     username: ENC(ZdHsOWbxnOauHVkbn58PiQ==)
