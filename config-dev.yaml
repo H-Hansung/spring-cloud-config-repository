@@ -3,7 +3,7 @@ spring:
   datasource:
     url: jdbc:mariadb:http//localhost:3306/hspro?allowMultiQueries=true
     username: devhsh
-    password: ehdaofu1@2#3
+    password: ehdaofu1!
     driver-class-name: org.mariadb.jdbc.Driver
   web:
     resources:
