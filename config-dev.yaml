@@ -1,7 +1,6 @@
 spring:
   profiles: dev
   datasource:
-    hikari:
       fstdb:
         jdbc-url: jdbc:log4jdbc:mariadb://localhost:3306/hspro?allowMultiQueries=true
         username: ENC(ZdHsOWbxnOauHVkbn58PiQ==)
